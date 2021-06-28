@@ -31,11 +31,20 @@
 	</insert>
 	
 	<update id="updateGroupOrderStatus">
-		UPDATE groupOrder
-    	SET status = (
-        	select distinct i.status from groupItem i, groupOrder o
-        	where i.itemid = o.itemid
-    	)
+		UPDATE
+    grouporder o
+SET
+    o.status = (select i.status from groupItem i
+        	where i.itemid = o.itemid)
+WHERE EXISTS (
+    SELECT
+        0
+    FROM
+        groupItem i
+    WHERE
+        i.itemid = o.itemid
+    )
+
 	</update>
 	
 	<insert id="insertPtpOrder" parameterType="PtpOrder">
