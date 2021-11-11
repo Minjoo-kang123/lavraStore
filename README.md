@@ -15,7 +15,15 @@
 <br/>
 
 ### 주요기능 : *gif 크기 초과 > 추후 수정 예정. 
-
+임시 :
+<table>
+	<tr>
+		<td> <img width="480" src="https://user-images.githubusercontent.com/59916029/141252012-28589b45-e59d-4a4a-82e5-dd8162caaf41.png"</td>
+	</tr>
+	<tr>
+        	<td> <img width="480" src="https://user-images.githubusercontent.com/59916029/141252050-32043db4-69a4-4032-9b7b-7f71b81d402e.png"</td>
+	</tr>
+</table>
 <table>
     <tr>
         <td align = "center"> <b> 메인페이지 </b> </td>
