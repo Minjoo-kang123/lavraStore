@@ -15,7 +15,7 @@
 <br/>
 
 ### 주요기능 : *gif 크기 초과 > 추후 수정 예정. 
-임시 :
+임시 : https://velog.io/@yujeong136/ssd-readme-image
 <table>
 	<tr>
 		<td> <img width="480" src="https://user-images.githubusercontent.com/59916029/141252012-28589b45-e59d-4a4a-82e5-dd8162caaf41.png"</td>
