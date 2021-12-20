@@ -1,4 +1,4 @@
-# lavraStroe
+# lavraStore
 2021-1 - SSD
 
 
